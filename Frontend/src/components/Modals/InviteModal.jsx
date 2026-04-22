@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { tripsAPI } from '../../services/api';
 
 const InviteModal = ({ isOpen, onClose, tripId, inviteHash }) => {
-  const [permission, setPermission] = useState('viewer'); 
+  const [permission, setPermission] = useState('viewer');
   const [loading, setLoading] = useState(false);
   const [copied, setCopied] = useState(false);
 
