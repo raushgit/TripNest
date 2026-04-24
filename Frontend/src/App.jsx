@@ -4,7 +4,7 @@ import { AuthProvider, useAuth } from './context/AuthContext';
 import { SocketProvider } from './context/SocketContext';
 
 // Pages
-import Landing from './pages/Landing';        // ✅ New public page
+import Landing from './pages/Landing';        
 import Dashboard from './pages/Dashboard';
 import TripDetail from './pages/TripDetail';
 import Login from './pages/Login';
