@@ -13,7 +13,12 @@ app.prepare().then(() => {
     handle(req, res, parsedUrl);
   });
 
-  const io = new Server(server);
+  const io = new Server(server, {
+    cors: {
+      origin: process.env.NEXT_PUBLIC_APP_URL || '*',
+      methods: ['GET', 'POST'],
+    },
+  });
 
   io.on('connection', (socket) => {
     console.log('Client connected');
@@ -65,8 +70,10 @@ app.prepare().then(() => {
     });
   });
 
-  server.listen(3000, (err) => {
+  const PORT = process.env.PORT || 3000;
+
+  server.listen(PORT, (err) => {
     if (err) throw err;
-    console.log('> Ready on http://localhost:3000');
+    console.log(`> Ready on http://localhost:${PORT}`);
   });
 });
