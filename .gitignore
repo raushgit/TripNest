@@ -12,7 +12,7 @@
 /.next/
 /out/
 
-.env.local.example
+/.env.local.example
 
 
 # production
