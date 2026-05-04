@@ -2,9 +2,14 @@
 
 Your collaborative travel companion. Create shared trip spaces, log memories in real-time, and explore the world with friends.
 
+[![Deployed on Render](https://img.shields.io/badge/Deployed%20on-Render-46E3B7?style=for-the-badge)](https://tripnest-d3wx.onrender.com)
+[![GitHub](https://img.shields.io/badge/GitHub-raushgit%2FTripNest-181717?style=for-the-badge&logo=github)](https://github.com/raushgit/TripNest)
+
+🚀 **[View Live Demo](https://tripnest-d3wx.onrender.com)** | 📖 [Documentation](#) | 🐛 [Report Bug](https://github.com/raushgit/TripNest/issues)
+
 ## Overview
 
-TripNest is a collaborative travel planning and documentation platform designed to help groups of friends coordinate trips, share experiences, and preserve memories together. Whether you're planning a weekend getaway or a month-long adventure, TripNest makes it easy to stay organized and connected throughout your journey.
+TripNest is a collaborative travel planning and documentation platform designed to help groups of friends coordinate trips, share experiences, and preserve memories together. Whether you're planning an adventure with friends or documenting memories in real-time, TripNest keeps everyone connected and organized.
 
 ## Features
 
